@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: "Viga", sans-serif;
+  /* font-family: 'Playfair Display', serif; */
+  background-color: whitesmoke;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover{
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.2);
+}
+
+button:focus{
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.3);
+}
+
+.shadow{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

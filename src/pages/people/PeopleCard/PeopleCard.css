@@ -1,0 +1,26 @@
+.people-card {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  /* margin: 10px; */
+  flex-direction: column;
+  width: 200px;
+  border: none;
+  padding: 0px;
+  white-space: nowrap;
+}
+
+.people-card__image {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+
+.people-card__username {
+  font-family: "Viga", sans-serif;
+  margin: 2px;
+  margin-left: 1rem;
+  font-size: 12px;
+  display: inline-block;
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+.people-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.discover-box {
+  padding-top: 15px;
+  overflow-y: auto;
+  text-align: center;
+  font-size: 15px;
+  height: 200px;
+  width: 400px;
+  align-self: center;
+  justify-content: center;
+  /* border: 1px gray solid; */
+}
+
+.posts-box {
+  overflow-y: auto;
+  text-align: center;
+  font-size: 15px;
+  height: 90vh;
+  width: 50vw;
+}
+
+.create-button{
+  width: 200px
+}

@@ -1,0 +1,73 @@
+.profile-card {
+  display: flex;
+  background-color: white;
+  border-radius: 4rem;
+  justify-content: center;
+  margin: 30px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.line-1 {
+    width: 80%;
+    height: 47px;
+    border-bottom: 1px solid gray;
+}
+
+.i_u {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-card__image {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  margin-right: 3em;
+}
+
+.profile-card__username {
+  margin: 2px;
+  font-size: 60px;
+  display: inline-block;
+  text-align: center;
+}
+
+.profile-card__quote {
+  font-family: "Playfair Display", serif;
+  /* display: flex; */
+}
+
+.follow-button{
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  border:none;
+  font-size: 20px;
+  width: fit-content;
+  height: 3rem;
+  margin-left: 20px;
+  flex-direction: row;
+  vertical-align: middle;
+
+}
+
+.follow-button:hover{
+  background-color:lightsteelblue;
+  color:white;
+}
+
+.label{
+  font-family: "Playfair Display", serif;
+}
+
+.fact-grid{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns:500px 500px
+}

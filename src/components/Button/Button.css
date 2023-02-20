@@ -1,0 +1,20 @@
+.default{
+    font-family: inherit;
+    border-style: none;
+    border-bottom: 10px;
+    background-color: white;
+    color: black;
+    width: fit-content;
+    height: 3rem;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.create{
+    width: 10rem;
+    background-color: pink;
+}
+
+.danger{
+    background-color: rgb(183, 75, 75);
+}
